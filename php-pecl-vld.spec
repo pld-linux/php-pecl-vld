@@ -11,7 +11,7 @@ License:	BSD style
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	d074260535f5f685517b1dff200f4a67
-URL:		http://pear.php.net/package/%{_pearname}/
+URL:		http://pear.php.net/package/vld/
 BuildRequires:	libtool
 BuildRequires:	php-devel
 Requires:	php-common
