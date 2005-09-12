@@ -22,14 +22,14 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		extensionsdir	%{_libdir}/php
 
 %description
-The Vulcan Logic Disassembler hooks into the Zend Engine and
-dumps all the opcodes (execution units) of a script.
+The Vulcan Logic Disassembler hooks into the Zend Engine and dumps all
+the opcodes (execution units) of a script.
 
 In PECL status of this package is: %{_status}.
 
 %description -l pl
-Vulcan Logic Disassembler przyczepia siê do Silnika Zend i
-zwraca wszystkie opcody (jednostki wykonawcze) skryptu.
+Vulcan Logic Disassembler przyczepia siê do Silnika Zend i zwraca
+wszystkie opcody (jednostki wykonawcze) skryptu.
 
 To rozszerzenie ma w PECL status: %{_status}.
 
