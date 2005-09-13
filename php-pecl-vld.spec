@@ -12,7 +12,6 @@ Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	00351344ed03a6eea6219e1db25aa660
 URL:		http://pecl.php.net/package/vld/
-BuildRequires:	libtool
 BuildRequires:	php-devel
 Requires:	php-common
 Obsoletes:	php-pear-%{_modname}
