@@ -8,11 +8,12 @@ Summary:	%{_modname} - provides functionality to dump the internal representatio
 Summary(pl):	%{_modname} - dostarcza funkcjonalno¶ci do zrzutu wewnêtrznej reprezentacji skryptów PHP
 Name:		php-pecl-%{_modname}
 Version:	0.8.0
-Release:	5
+Release:	6
 License:	BSD style
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	00351344ed03a6eea6219e1db25aa660
+Patch0:		%{name}-php51.patch
 URL:		http://pecl.php.net/package/vld/
 BuildRequires:	php-devel >= 3:5.0.0
 BuildRequires:	rpmbuild(macros) >= 1.254
@@ -35,6 +36,7 @@ To rozszerzenie ma w PECL status: %{_status}.
 
 %prep
 %setup -q -c
+%patch0 -p1
 
 %build
 cd %{_modname}-%{version}
