@@ -3,7 +3,7 @@
 %define		_modname	vld
 %define		_status		beta
 Summary:	%{_modname} - provides functionality to dump the internal representation of PHP scripts
-Summary(pl):	%{_modname} - dostarcza funkcjonalno¶ci do zrzutu wewnêtrznej reprezentacji skryptów PHP
+Summary(pl.UTF-8):   %{_modname} - dostarcza funkcjonalnoÅ›ci do zrzutu wewnÄ™trznej reprezentacji skryptÃ³w PHP
 Name:		php-pecl-%{_modname}
 Version:	0.8.0
 Release:	7
@@ -26,8 +26,8 @@ the opcodes (execution units) of a script.
 
 In PECL status of this package is: %{_status}.
 
-%description -l pl
-Vulcan Logic Disassembler przyczepia siê do Silnika Zend i zwraca
+%description -l pl.UTF-8
+Vulcan Logic Disassembler przyczepia siÄ™ do Silnika Zend i zwraca
 wszystkie opcody (jednostki wykonawcze) skryptu.
 
 To rozszerzenie ma w PECL status: %{_status}.
