@@ -3,7 +3,7 @@
 %define		_modname	vld
 %define		_status		beta
 Summary:	%{_modname} - provides functionality to dump the internal representation of PHP scripts
-Summary(pl.UTF-8):   %{_modname} - dostarcza funkcjonalności do zrzutu wewnętrznej reprezentacji skryptów PHP
+Summary(pl.UTF-8):	%{_modname} - dostarcza funkcjonalności do zrzutu wewnętrznej reprezentacji skryptów PHP
 Name:		php-pecl-%{_modname}
 Version:	0.8.0
 Release:	7
