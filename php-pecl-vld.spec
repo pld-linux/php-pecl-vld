@@ -1,10 +1,10 @@
 %define		modname	vld
-%define		status		beta
+%define		status	beta
 Summary:	%{modname} - provides functionality to dump the internal representation of PHP scripts
 Summary(pl.UTF-8):	%{modname} - dostarcza funkcjonalności do zrzutu wewnętrznej reprezentacji skryptów PHP
 Name:		php-pecl-%{modname}
 Version:	0.10.1
-Release:	0.1
+Release:	1
 License:	BSD style
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
