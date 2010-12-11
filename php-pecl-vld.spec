@@ -4,7 +4,7 @@ Summary:	%{modname} - provides functionality to dump the internal representation
 Summary(pl.UTF-8):	%{modname} - dostarcza funkcjonalności do zrzutu wewnętrznej reprezentacji skryptów PHP
 Name:		php-pecl-%{modname}
 Version:	0.10.1
-Release:	1
+Release:	2
 License:	BSD style
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
