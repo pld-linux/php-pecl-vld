@@ -1,8 +1,9 @@
+%define		php_name	php%{?php_suffix}
 %define		modname	vld
 %define		status	beta
 Summary:	%{modname} - provides functionality to dump the internal representation of PHP scripts
 Summary(pl.UTF-8):	%{modname} - dostarcza funkcjonalności do zrzutu wewnętrznej reprezentacji skryptów PHP
-Name:		php-pecl-%{modname}
+Name:		%{php_name}-pecl-%{modname}
 Version:	0.11.1
 Release:	3
 License:	BSD style
@@ -10,8 +11,8 @@ Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
 # Source0-md5:	c76299c4317286635585797d5f830465
 URL:		http://pecl.php.net/package/vld/
-BuildRequires:	php-devel >= 3:5.0.0
-BuildRequires:	rpmbuild(macros) >= 1.344
+BuildRequires:	%{php_name}-devel >= 3:5.0.0
+BuildRequires:	rpmbuild(macros) >= 1.650
 %{?requires_php_extension}
 Requires:	php(core) >= 5.0.4
 Obsoletes:	php-pear-%{modname}
