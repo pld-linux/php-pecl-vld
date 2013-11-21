@@ -1,15 +1,14 @@
 %define		php_name	php%{?php_suffix}
-%define		modname	vld
-%define		status	beta
+%define		modname		vld
 Summary:	%{modname} - provides functionality to dump the internal representation of PHP scripts
 Summary(pl.UTF-8):	%{modname} - dostarcza funkcjonalności do zrzutu wewnętrznej reprezentacji skryptów PHP
 Name:		%{php_name}-pecl-%{modname}
-Version:	0.11.1
-Release:	4
+Version:	0.12.0
+Release:	1
 License:	BSD style
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
-# Source0-md5:	c76299c4317286635585797d5f830465
+# Source0-md5:	b2b156f1d4aae486f684872c4350b4fa
 URL:		http://pecl.php.net/package/vld/
 BuildRequires:	%{php_name}-devel >= 3:5.0.0
 BuildRequires:	rpmbuild(macros) >= 1.650
@@ -22,13 +21,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 The Vulcan Logic Disassembler hooks into the Zend Engine and dumps all
 the opcodes (execution units) of a script.
 
-In PECL status of this package is: %{status}.
-
 %description -l pl.UTF-8
 Vulcan Logic Disassembler podłącza się do silnika Zend i zwraca
 wszystkie jednostki wykonawcze (tzw. opcody) danego skryptu.
-
-To rozszerzenie ma w PECL status: %{status}.
 
 %prep
 %setup -qc
